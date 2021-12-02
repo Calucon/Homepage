@@ -19,14 +19,17 @@
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">Projects (public)</a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="https://auth.calucon.de" target="_blank" rel="noreferrer">
-                            Calucon Account
-                        </a>
                         <a class="navbar-item" href="https://gitlab.com/Calucon/calpkt" target="_blank" rel="noreferrer">
                             CALPKT (Java TCP/UDP API)
                         </a>
                         <a class="navbar-item" href="https://gitlab.com/Calucon/linear-descending-range" target="_blank" rel="noreferrer">
                             LDR (linear descending range)
+                        </a>
+                        <a class="navbar-item" href="https://github.com/Calucon/calucon_crypto_bot" target="_blank" rel="noreferrer">
+                            Crypto.org Telegram Bot (WIP)
+                        </a>
+                        <a class="navbar-item" href="https://auth.calucon.de" target="_blank" rel="noreferrer">
+                            <span style="text-decoration: line-through;">Calucon Account</span>&nbsp;(Discontinued)
                         </a>
                     </div>
                 </div>
