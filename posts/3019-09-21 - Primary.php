@@ -32,7 +32,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
 
             ?>
             <div class="card-content">
-                Hello, this is Simon.<br>
+                Hello, my name is Simon.<br>
                 I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.<br>
                 <br>
                 When I'm not currently busy with studying or working, I like to explore unknown stuff regarding: linux server administration and automation as well as software development.

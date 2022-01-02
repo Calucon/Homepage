@@ -33,7 +33,7 @@ $date = new DateTime('2020-08-25', new DateTimeZone('utc'));
                 ?>
                 <div class="card-content">
                     <p>
-                        Instead of abusing this main landing page as some sort of blog, I've decided to use the already existing 
+                        Instead of using this main landing page as some sort of blog, I've decided to use the already existing 
                         wordpress installation of mine over at <a href="https://blog.calucon.de" target="_blank" rel="noreferrer">blog.calugon.de</a>
                         for anything that is worth a dedicated post.
                     </p>

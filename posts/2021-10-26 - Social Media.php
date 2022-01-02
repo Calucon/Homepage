@@ -116,12 +116,14 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                             </span>
                             <span>Keybase</span>
                         </a>
+                        <!---
                         <a class="button is-medium is-steam" href="https://steamcommunity.com/id/CaluconDEV/" target="_blank" rel="noopener">
                             <span class="icon is-medium">
                               <i class="fab fa-lg fa-steam"></i>
                             </span>
                             <span>Steam</span>
                         </a>
+                        -->
                     </div>
                 </div>
                 <?php
