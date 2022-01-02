@@ -68,8 +68,9 @@ function loadAllPosts(){
     <link rel="image_src" href="./favicon.ico">
 
     <!-- Site CSS and JS -->
-    <link rel="stylesheet" href="/css/bulma.css">
-    <link rel="stylesheet" href="/css/bulma-social.css">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/bulma-social.min.css">
+    <link rel="stylesheet" href="/css/bulma-timeline.min.css">
     <link rel="stylesheet" href="/css/fontawesome/css/all.css">
     <script src="/js/main.js"></script>
 </head>
