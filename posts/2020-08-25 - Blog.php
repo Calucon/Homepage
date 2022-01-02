@@ -39,7 +39,7 @@ $date = new DateTime('2020-08-25', new DateTimeZone('utc'));
                     </p>
                     <br>
                     <p>
-                      You can see an excerpt of all Posts below:  
+                        Click on any post below and you'll be redirected to the blog post right away:  
                     </p>
                     <hr/>
                     <iframe title="Calucon Blog Preview" id="blog-frame" src="https://blog.calucon.de/blog/" style="width: 100%;min-height: 30em;"></iframe>
