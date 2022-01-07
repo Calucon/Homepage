@@ -55,7 +55,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                     </header>
                     <div class="timeline-item is-success">
                         <div class="timeline-marker is-success is-icon">
-                            <i class="fa fa-flag"></i>
+                            <i class="fa fa-check"></i>
                         </div>
                         <div class="timeline-content">
                             <p class="heading">February 2019</p>

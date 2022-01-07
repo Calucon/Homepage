@@ -13,6 +13,9 @@
         </div>
         <div class="navbar-menu" id="navbarMainContent">
             <div class="navbar-end">
+                <a class="navbar-item" href="https://status.calucon.de" target="_blank" rel="noreferrer">
+                    Status
+                </a>
                 <a class="navbar-item" href="https://blog.calucon.de" target="_blank" rel="noreferrer">
                     Blog
                 </a>
