@@ -28,8 +28,8 @@
                         <a class="navbar-item" href="https://gitlab.com/Calucon/linear-descending-range" target="_blank" rel="noreferrer">
                             LDR (linear descending range)
                         </a>
-                        <a class="navbar-item" href="https://github.com/Calucon/calucon_crypto_bot" target="_blank" rel="noreferrer">
-                            Crypto.org Telegram Bot (WIP)
+                        <a class="navbar-item" href="https://github.com/Calucon/Spigot-Docker" target="_blank" rel="noreferrer">
+                            Spigot Server Docker
                         </a>
                         <a class="navbar-item" href="https://auth.calucon.de" target="_blank" rel="noreferrer">
                             <span style="text-decoration: line-through;">Calucon Account</span>&nbsp;(Discontinued)
