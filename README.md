@@ -14,3 +14,17 @@ This website is using
 - [Fontawesome](https://fontawesome.com/)
 
 Thanks for providing these amazing libraries!
+
+## Commands
+
+### CSS
+
+```*
+sass --watch scss:css
+```
+
+### JS
+
+```*
+./node_modules/.bin/webpack
+```
