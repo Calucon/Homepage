@@ -9,6 +9,7 @@ https://calucon.de
 
 This website is using
 - [Bulma](https://bulma.io/)
+- [Bulma Extensions](https://wikiki.github.io/)
 - [Bulma Social](https://aldi.github.io/bulma-social/)
 - [Fontawesome](https://fontawesome.com/)
 
