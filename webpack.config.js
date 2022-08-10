@@ -8,7 +8,7 @@ module.exports = {
     devtool: 'source-map',
 
     // automatic recompile on change
-    watch: true,
+    watch: false,
 
     // input packages
     entry: {
