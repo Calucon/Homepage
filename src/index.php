@@ -36,7 +36,7 @@ function loadAllPosts(){
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Calucon, Software, Programming, Security">
+    <meta name="keywords" content="Calucon, Software, Development">
     <meta name="author" contents="Calucon / Simon Schwitz">
 
     <!-- HTML Meta Tags -->

@@ -18,6 +18,6 @@ module.exports = {
     // output config
     output: {
         filename: '[name].bundle.js',
-        clean: true
+        clean: false
     }
 }

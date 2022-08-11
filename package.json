@@ -6,6 +6,7 @@
     "bulma-social": "^2.1.0"
   },
   "devDependencies": {
+    "sass": "^1.54.4",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }
