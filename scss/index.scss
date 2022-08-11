@@ -1,5 +1,5 @@
-@use '../node_modules/bulma/bulma.sass';
+@use '../node_modules/@fortawesome/fontawesome-free/css/all.min.css' as font-awesome;
 
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
-@import '../node_modules/bulma-extensions/dist/css/bulma-extensions.min.css';
-@import '../node_modules/bulma-social/css/all.css';
+@use '../node_modules/bulma/bulma.sass' as bulma;
+@use '../node_modules/bulma-extensions/dist/css/bulma-extensions.min.css' as bulma-ext;
+@use '../node_modules/bulma-social/css/all.min.css' as bulma-social;
