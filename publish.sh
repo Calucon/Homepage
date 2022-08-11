@@ -14,4 +14,4 @@ npm i
 ./node_modules/.bin/webpack --mode=production
 
 mkdir -p dist/webfonts/
-cp './node_modules/@fortawesome/fontawesome-free/webfonts/*' dist/webfonts/ -r
+cp ./node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts/ -r
