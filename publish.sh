@@ -1,4 +1,5 @@
 #!/bin/bash
+git restore package-lock.json
 git pull
 
 rm -rf dist/
