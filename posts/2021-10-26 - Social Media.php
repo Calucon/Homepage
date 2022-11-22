@@ -73,7 +73,7 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                             </span>
                             <span>LinkedIn</span>
                         </a>
-                        <a class="button is-medium is-twitter" href="https://twitter.com/Calucon" target="_blank" rel="noopener">
+                        <a class="button is-medium is-twitter" href="https://twitter.com/CaluconDEV" target="_blank" rel="noopener">
                             <span class="icon is-medium">
                               <i class="fab fa-lg fa-twitter"></i>
                             </span>
@@ -110,20 +110,6 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                             </span>
                             <span>Stack Overflow</span>
                         </a>
-                        <a class="button is-medium is-keybase" href="https://keybase.io/calucon" target="_blank" rel="noopener">
-                            <span class="icon is-medium">
-                              <i class="fab fa-lg fa-keybase"></i>
-                            </span>
-                            <span>Keybase</span>
-                        </a>
-                        <!---
-                        <a class="button is-medium is-steam" href="https://steamcommunity.com/id/CaluconDEV/" target="_blank" rel="noopener">
-                            <span class="icon is-medium">
-                              <i class="fab fa-lg fa-steam"></i>
-                            </span>
-                            <span>Steam</span>
-                        </a>
-                        -->
                     </div>
                 </div>
                 <?php

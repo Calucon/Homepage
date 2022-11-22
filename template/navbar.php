@@ -16,9 +16,9 @@
                 <a class="navbar-item" href="https://status.calucon.de" target="_blank" rel="noreferrer">
                     Status
                 </a>
-                <a class="navbar-item" href="https://blog.calucon.de" target="_blank" rel="noreferrer">
+                <!--<a class="navbar-item" href="https://blog.calucon.de" target="_blank" rel="noreferrer">
                     Blog
-                </a>
+                </a>-->
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">Projects (public)</a>
                     <div class="navbar-dropdown">

@@ -1,5 +1,5 @@
 <?php
-$exclude = false;
+$exclude = true;
 if($exclude == true) return;
 
 $title = 'Blog';
