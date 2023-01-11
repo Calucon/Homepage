@@ -32,8 +32,8 @@ $date = new DateTime('1998-04-06', new DateTimeZone('utc'));
 
             ?>
             <div class="card-content">
-                <h3>Java</h3>
-                <h4>4+ years</h4>
+                <h1>Java</h1>
+                <h2>4+ years</h2>
                 <p>
                     I taught myself how to program while still going to school. Back then, I was strongly interested in Minecraft and wanted to develop my own server plugins. Having no experience at all, I started by watching Youtube videos and learned it that way. Also at University, this was the first programming language we were required to learn.
                 </p>
