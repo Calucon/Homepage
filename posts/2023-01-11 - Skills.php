@@ -1,5 +1,5 @@
 <?php
-$exclude = true;
+$exclude = false;
 if ($exclude == true) return;
 
 $title = 'Skills';
