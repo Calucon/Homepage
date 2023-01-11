@@ -31,9 +31,6 @@
                         <a class="navbar-item" href="https://github.com/Calucon/Spigot-Docker" target="_blank" rel="noreferrer">
                             Spigot Server Docker
                         </a>
-                        <a class="navbar-item" href="https://auth.calucon.de" target="_blank" rel="noreferrer">
-                            <span style="text-decoration: line-through;">Calucon Account</span>&nbsp;(Discontinued)
-                        </a>
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
