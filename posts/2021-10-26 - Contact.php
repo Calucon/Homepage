@@ -38,7 +38,7 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                     }
                 </style>
                 <div class="card">
-                    <header class="card-header">
+                    <header class="card-header has-background-success-light">
                         <p class="card-header-title">
                             GIT
                         </p>
@@ -64,37 +64,14 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                         </a>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="column">
-                        <h2 class="title is-5">Code</h2>
-                    </div>
-                    <div class="column">
-                        <a class="button is-medium is-gitlab" href="https://gitlab.com/Calucon" target="_blank" rel="noopener">
-                            <span class="icon is-medium">
-                                <i class="fab fa-lg fa-gitlab"></i>
-                            </span>
-                            <span>Gitlab</span>
-                        </a>
-                        <a class="button is-medium is-github" href="https://github.com/Calucon" target="_blank" rel="noopener">
-                            <span class="icon is-medium">
-                                <i class="fab fa-lg fa-github"></i>
-                            </span>
-                            <span>GitHub</span>
-                        </a>
-                        <a class="button is-medium is-bitbucket" href="https://bitbucket.org/calucon/" target="_blank" rel="noopener">
-                            <span class="icon is-medium">
-                                <i class="fab fa-lg fa-bitbucket"></i>
-                            </span>
-                            <span>Bitbucket</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <h2 class="title is-5">Social Media</h2>
-                    </div>
-                    <div class="column">
+                <br />
+                <div class="card">
+                    <header class="card-header has-background-success-light">
+                        <p class="card-header-title">
+                            Social Media
+                        </p>
+                    </header>
+                    <div class="card-content">
                         <a class="button is-medium is-linkedin" href="https://www.linkedin.com/in/simon-schwitz-7840471a1/" target="_blank" rel="noopener">
                             <span class="icon is-medium">
                                 <i class="fab fa-lg fa-linkedin"></i>
@@ -121,11 +98,14 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                         </a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="column">
-                        <h2 class="title is-5">Others</h2>
-                    </div>
-                    <div class="column">
+                <br />
+                <div class="card">
+                    <header class="card-header has-background-success-light">
+                        <p class="card-header-title">
+                            Others
+                        </p>
+                    </header>
+                    <div class="card-content">
                         <a class="button is-medium is-docker" href="https://hub.docker.com/u/calucon" target="_blank" rel="noopener">
                             <span class="icon is-medium">
                                 <i class="fab fa-lg fa-docker"></i>
@@ -140,6 +120,7 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                         </a>
                     </div>
                 </div>
+
                 <?php
                 if (isset($author) && isset($date)) {
                 ?>
