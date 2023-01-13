@@ -66,7 +66,7 @@ function printSkill(string $name, int $years, string ...$descriptions)
             }
 
             ?>
-            <div class="card-content has-background-white-ter">
+            <div class="card-content has-background-white-bis">
                 <?php
                 printSkill(
                     'PHP',

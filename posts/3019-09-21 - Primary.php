@@ -31,14 +31,14 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
             }
 
             ?>
-            <div class="card-content">
-                <p>Hello, my name is Simon.</p>
+            <div class="card-content has-background-white-bis">
+                <p>Hello, my name is Simon.</p><br />
                 <p>
                     I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.
-                </p>
+                </p><br />
                 <p>
                     At University, I'm focusing my studies in the field of HCI (Human Computer Interaction). As I enjoy working on front-end-facing projects, I want to gain a deeper understanding of UI/UX design.
-                </p>
+                </p><br />
                 <p>
                     At work, I'm mostly working on various PHP applications. Among these are WordPress and Shopware websites.
                 </p>
