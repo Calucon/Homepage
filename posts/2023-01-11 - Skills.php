@@ -48,7 +48,7 @@ function printSkill(string $name, int $years, string ...$descriptions)
 
 ?>
 
-<section class="section">
+<section class="section" id="skills">
     <div class="container">
         <div class="card">
             <header class="card-header has-background-warning">
