@@ -3,4 +3,16 @@
 
 // sass not working...
 @use '../node_modules/bulma-timeline/dist/css/bulma-timeline.min.css' as bulma-timeline;
-@use '../node_modules/bulma-social/css/all.css' as bulma-social;
+
+/*
+    Bulma Social
+        Only add what i actually need
+*/
+@use '../node_modules/bulma-social/css/single/gitlab/gitlab.css';
+@use '../node_modules/bulma-social/css/single/github/github.css';
+@use '../node_modules/bulma-social/css/single/bitbucket/bitbucket.css';
+
+@use '../node_modules/bulma-social/css/single/linkedin/linkedin.css';
+@use '../node_modules/bulma-social/css/single/twitter/twitter.css';
+@use '../node_modules/bulma-social/css/single/discord/discord.css';
+@use '../node_modules/bulma-social/css/single/reddit/reddit.css';
