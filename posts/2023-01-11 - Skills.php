@@ -19,13 +19,13 @@ function printSkill(string $name, int $years, string $description)
             <p class="card-header-title">
                 <?php echo $name; ?>
             </p>
-            <a href="#collapsible-card" data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
+            <a href="#collapsible-card-<?php echo $name; ?>" data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
                 <span class="icon">
                     <i class="fas fa-angle-down" aria-hidden="true"></i>
                 </span>
             </a>
         </header>
-        <div id="collapsible-card" class="is-collapsible is-active">
+        <div id="collapsible-card-<?php echo $name; ?>" class="is-collapsible is-active">
             <div class="card-content">
                 <p class="subtitle is-5">
                     <?php echo $years; ?>+ years
