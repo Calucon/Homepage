@@ -32,8 +32,16 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
 
             ?>
             <div class="card-content">
-                Hello, my name is Simon.<br>
-                I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.<br>
+                <p>Hello, my name is Simon.</p>
+                <p>
+                    I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.
+                </p>
+                <p>
+                    At University, I'm focusing my studies in the field of HCI (Human Computer Interaction). As I enjoy working on front-end-facing projects, I want to gain a deeper understanding of UI/UX design.
+                </p>
+                <p>
+                    At work, I'm mostly working on various PHP applications. Among these are WordPress and Shopware websites.
+                </p>
                 <hr />
                 <div class="timeline is-centered">
                     <header class="timeline-header">
@@ -44,8 +52,8 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">September 2016</p>
                             <p>
-                                Apprenticeship as Software Developer at 
-                                <br/>
+                                Apprenticeship as Software Developer at
+                                <br />
                                 <a href="https://www.gebhardt-inc.com/" target="_blank" rel="noopener">Gebhardt Logistic Solutions GmbH</a>
                             </p>
                         </div>
@@ -60,10 +68,10 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">February 2019</p>
                             <p>
-                                Successfully finished apprenticeship 
-                                <br/> 
-                                and got an employment contract at 
-                                <br/>
+                                Successfully finished apprenticeship
+                                <br />
+                                and got an employment contract at
+                                <br />
                                 <a href="https://www.gebhardt-inc.com/" target="_blank" rel="noopener">Gebhardt Logistic Solutions GmbH</a>
                             </p>
                         </div>
@@ -73,8 +81,8 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">October 2019</p>
                             <p>
-                                Studying computer science at 
-                                <br/>
+                                Studying computer science at
+                                <br />
                                 <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>
                             </p>
                         </div>
@@ -87,8 +95,8 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">March 2020</p>
                             <p>
-                                Working part-time as Full-Stack Developer at 
-                                <br/>
+                                Working part-time as Full-Stack Developer at
+                                <br />
                                 <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>
                             </p>
                         </div>

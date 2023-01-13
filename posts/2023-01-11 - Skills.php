@@ -15,7 +15,7 @@ function printSkill(string $name, int $years, string ...$descriptions)
 {
 ?>
     <div class="card">
-        <header class="card-header">
+        <header class="card-header has-background-success-light">
             <p class="card-header-title">
                 <?php echo $name; ?>
             </p>
@@ -66,7 +66,7 @@ function printSkill(string $name, int $years, string ...$descriptions)
             }
 
             ?>
-            <div class="card-content">
+            <div class="card-content has-background-white-ter">
                 <?php
                 printSkill(
                     'PHP',
