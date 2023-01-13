@@ -74,6 +74,7 @@ function loadAllPosts()
 
     <!-- Site CSS and JS -->
     <link rel="stylesheet" href="/css/bundle.css">
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css">
     <script src="/js/bulma-collapsible.min.js"></script>
     <script src="/js/main.js"></script>
 </head>
