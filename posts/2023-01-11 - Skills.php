@@ -1,5 +1,5 @@
 <?php
-$exclude = true;
+$exclude = false;
 if ($exclude == true) return;
 
 $title = 'Skills';
@@ -10,6 +10,35 @@ $imageALT = 'Calucon Logo';
 
 $author = 'Simon Schwitz';
 $date = new DateTime('1998-04-06', new DateTimeZone('utc'));
+
+function printSkill(string $name, int $years, string $description)
+{
+?>
+    <div class="card">
+        <header class="card-header">
+            <p class="card-header-title">
+                <?php echo $name; ?>
+            </p>
+            <a href="#collapsible-card-<?php echo $name; ?>" data-action="collapse" class="card-header-icon is-hidden-fullscreen" aria-label="more options">
+                <span class="icon">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+            </a>
+        </header>
+        <div id="collapsible-card-<?php echo $name; ?>" class="is-collapsible is-active">
+            <div class="card-content">
+                <p class="title is-4">
+                    “There are two hard things in computer science: cache invalidation, naming things, and off-by-one
+                    errors.”
+                </p>
+                <p class="subtitle is-5">
+                    Jeff Atwood
+                </p>
+            </div>
+        </div>
+    </div>
+<?
+}
 
 ?>
 
@@ -32,6 +61,7 @@ $date = new DateTime('1998-04-06', new DateTimeZone('utc'));
 
             ?>
             <div class="card-content">
+                <?php printSkill("Test", 3, "TestTestTest!"); ?>
                 <h1>Java</h1>
                 <h2>4+ years</h2>
                 <p>
