@@ -73,7 +73,7 @@ function loadAllPosts()
     <link rel="image_src" href="./favicon.ico">
 
     <!-- Site CSS and JS -->
-    <link rel="stylesheet" href="/css/bundle.min.css">
+    <link rel="stylesheet" href="/css/bundle.css">
     <script src="/js/bulma-collapsible.min.js"></script>
     <script src="/js/main.js"></script>
 </head>
