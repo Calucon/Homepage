@@ -27,12 +27,11 @@ function printSkill(string $name, int $years, string $description)
         </header>
         <div id="collapsible-card-<?php echo $name; ?>" class="is-collapsible is-active">
             <div class="card-content">
-                <p class="title is-4">
-                    “There are two hard things in computer science: cache invalidation, naming things, and off-by-one
-                    errors.”
-                </p>
                 <p class="subtitle is-5">
-                    Jeff Atwood
+                    <?php echo $years; ?>+ years
+                </p>
+                <p class="title is-4">
+                    <?php echo $description; ?>
                 </p>
             </div>
         </div>
@@ -61,7 +60,7 @@ function printSkill(string $name, int $years, string $description)
 
             ?>
             <div class="card-content">
-                <?php printSkill("Test", 3, "TestTestTest!"); ?>
+                <?php printSkill("Java", 4, "I taught myself how to program while still going to school. Back then, I was strongly interested in Minecraft and wanted to develop my own server plugins. Having no experience at all, I started by watching Youtube videos and learned it that way. Also at University, this was the first programming language we were required to learn."); ?>
                 <h1>Java</h1>
                 <h2>4+ years</h2>
                 <p>
