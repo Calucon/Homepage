@@ -79,7 +79,7 @@ function loadAllPosts()
     <script src="/js/main.js"></script>
 </head>
 
-<body>
+<body class="has-background-dark">
     <?php
     loadTemplate('navbar');
     loadAllPosts();
