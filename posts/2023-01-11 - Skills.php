@@ -11,7 +11,7 @@ $imageALT = 'Calucon Logo';
 $author = 'Simon Schwitz';
 $date = new DateTime('1998-04-06', new DateTimeZone('utc'));
 
-function printSkill(string $name, int $years, string $description)
+function printSkill(string $name, int $years, string ...$descriptions)
 {
 ?>
     <div class="card">
@@ -30,9 +30,15 @@ function printSkill(string $name, int $years, string $description)
                 <p class="subtitle is-5">
                     <?php echo $years; ?>+ years
                 </p>
-                <p class="title is-4">
-                    <?php echo $description; ?>
-                </p>
+                <?php
+                foreach ($descriptions as $desc) {
+                ?>
+                    <p>
+                        <?php echo $desc; ?>
+                    </p>
+                <?php
+                }
+                ?>
             </div>
         </div>
     </div>
@@ -60,7 +66,16 @@ function printSkill(string $name, int $years, string $description)
 
             ?>
             <div class="card-content">
-                <?php printSkill("Java", 4, "I taught myself how to program while still going to school. Back then, I was strongly interested in Minecraft and wanted to develop my own server plugins. Having no experience at all, I started by watching Youtube videos and learned it that way. Also at University, this was the first programming language we were required to learn."); ?>
+                <?php
+                printSkill('Java', 4, 'I taught myself how to program while still going to school. Back then, I was strongly interested in Minecraft and wanted to develop my own server plugins. Having no experience at all, I started by watching Youtube videos and learned it that way. Also at University, this was the first programming language we were required to learn.');
+
+                printSkill(
+                    'Kotlin',
+                    3,
+                    'For the final project of my apprenticeship, there was a requirement that the server part of the software can run on any host. I heard about Kotlin before, but this is the first time I\'ve actually used it. Having a profound background in Java, switching to Kotlin was quite easy and I enjoyed working with all the additional features that Kotlin offers.',
+                    'My own Java/Kotlin TCP/UDP library emerged from my final project which can be found <a href="https://gitlab.com/Calucon/calpkt" target="_blank" rel="noreferrer">here</a>. During one of my University courses, I was able to re-use this library, but due to lack of time, I\'ve never continued to actively develop it further.'
+                );
+                ?>
                 <h1>Java</h1>
                 <h2>4+ years</h2>
                 <p>
