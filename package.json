@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@creativebulma/bulma-collapsible": "^1.0.4",
+    "bulma": "^0.9.4",
+    "bulma-social": "^2.1.0",
+    "bulma-timeline": "^3.0.5"
+  }
+}

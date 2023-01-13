@@ -1,29 +1,33 @@
 <?php
 
-function loadExternal(String $folder, String $name){
-    $file = sprintf(dirname(__FILE__).DIRECTORY_SEPARATOR.$folder.DIRECTORY_SEPARATOR.'%s.php', $name);
-    if(file_exists($file)) {
+function loadExternal(String $folder, String $name)
+{
+    $file = sprintf(dirname(__FILE__) . DIRECTORY_SEPARATOR . $folder . DIRECTORY_SEPARATOR . '%s.php', $name);
+    if (file_exists($file)) {
         include $file;
     } else {
-        error_log('File not found: '.$file);
+        error_log('File not found: ' . $file);
     }
 }
 
-function loadTemplate(String $name){
+function loadTemplate(String $name)
+{
     loadExternal('template', $name);
 }
 
-function loadPost(String $name){
+function loadPost(String $name)
+{
     loadExternal('posts', $name);
 }
 
-function loadAllPosts(){
-    $files = glob('posts'.DIRECTORY_SEPARATOR.'*.php');
+function loadAllPosts()
+{
+    $files = glob('posts' . DIRECTORY_SEPARATOR . '*.php');
 
-    if($files === false) return;
+    if ($files === false) return;
 
     $files = array_reverse($files);
-    foreach($files as $file){
+    foreach ($files as $file) {
         include $file;
     }
 }
@@ -31,7 +35,8 @@ function loadAllPosts(){
 ?>
 
 <!DOCTYPE html>
-<html lang="<?php echo /*Translation::$lang*/'en'; ?>">
+<html lang="<?php echo /*Translation::$lang*/ 'en'; ?>">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -68,17 +73,17 @@ function loadAllPosts(){
     <link rel="image_src" href="./favicon.ico">
 
     <!-- Site CSS and JS -->
-    <link rel="stylesheet" href="/css/bulma.min.css">
-    <link rel="stylesheet" href="/css/bulma-social.min.css">
-    <link rel="stylesheet" href="/css/bulma-timeline.min.css">
+    <link rel="stylesheet" href="/css/bundle.css">
     <link rel="stylesheet" href="/css/fontawesome/css/all.css">
     <script src="/js/main.js"></script>
 </head>
+
 <body>
-    <?php     
-        loadTemplate('navbar');         
-        loadAllPosts();
-        loadTemplate('footer');    
+    <?php
+    loadTemplate('navbar');
+    loadAllPosts();
+    loadTemplate('footer');
     ?>
 </body>
+
 </html>
