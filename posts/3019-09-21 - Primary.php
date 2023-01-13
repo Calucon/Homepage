@@ -34,7 +34,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
             <div class="card-content has-background-white-bis">
                 <div class="columns">
                     <div class="column is-half">
-                        <figure class="image is-16by9">
+                        <figure class="image is-3by2">
                             <img src="/img/calucon_cow.webp" class="has-ratio" alt="Calucon" loading="lazy" />
                         </figure>
                     </div>
