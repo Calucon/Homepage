@@ -24,7 +24,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
             ?>
                 <div class="card-image">
                     <figure class="image">
-                        <img src="<?php echo $imageURL; ?>" alt="<?php echo $imageALT; ?>">
+                        <img src="<?php echo $imageURL; ?>" alt="<?php echo $imageALT; ?>" loading="lazy">
                     </figure>
                 </div>
             <?php
@@ -32,16 +32,25 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
 
             ?>
             <div class="card-content has-background-white-bis">
-                <p>Hello, my name is Simon.</p><br />
-                <p>
-                    I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.
-                </p><br />
-                <p>
-                    At University, I'm focusing my studies in the field of HCI (Human Computer Interaction). As I enjoy working on front-end-facing projects, I want to gain a deeper understanding of UI/UX design.
-                </p><br />
-                <p>
-                    At work, I'm mostly working on various PHP applications. Among these are WordPress and Shopware websites.
-                </p>
+                <div class="columns">
+                    <div class="column is-half">
+                        <figure class="image is-16by9">
+                            <img src="/img/calucon_cow.webp" class="has-ratio" alt="Calucon" loading="lazy" />
+                        </figure>
+                    </div>
+                    <div class="column is-half">
+                        <p>Hello, my name is Simon.</p><br />
+                        <p>
+                            I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.
+                        </p><br />
+                        <p>
+                            At University, I'm focusing my studies in the field of HCI (Human Computer Interaction). As I enjoy working on front-end-facing projects, I want to gain a deeper understanding of UI/UX design.
+                        </p><br />
+                        <p>
+                            At work, I'm mostly working on various PHP applications. Among these are WordPress and Shopware websites.
+                        </p>
+                    </div>
+                </div>
                 <hr />
                 <div class="timeline is-centered">
                     <header class="timeline-header">
