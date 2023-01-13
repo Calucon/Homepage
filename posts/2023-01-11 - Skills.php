@@ -37,7 +37,7 @@ function printSkill(string $name, int $years, string $description)
             </div>
         </div>
     </div>
-<?
+<?php
 }
 
 ?>
