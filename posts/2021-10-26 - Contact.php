@@ -37,6 +37,34 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                         margin-top: 4px;
                     }
                 </style>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            GIT
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <a class="button is-medium is-gitlab" href="https://gitlab.com/Calucon" target="_blank" rel="noopener">
+                            <span class="icon is-medium">
+                                <i class="fab fa-lg fa-gitlab"></i>
+                            </span>
+                            <span>Gitlab</span>
+                        </a>
+                        <a class="button is-medium is-github" href="https://github.com/Calucon" target="_blank" rel="noopener">
+                            <span class="icon is-medium">
+                                <i class="fab fa-lg fa-github"></i>
+                            </span>
+                            <span>GitHub</span>
+                        </a>
+                        <a class="button is-medium is-bitbucket" href="https://bitbucket.org/calucon/" target="_blank" rel="noopener">
+                            <span class="icon is-medium">
+                                <i class="fab fa-lg fa-bitbucket"></i>
+                            </span>
+                            <span>Bitbucket</span>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="column">
                         <h2 class="title is-5">Code</h2>
