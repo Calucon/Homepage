@@ -1,4 +1,4 @@
-<nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+<nav class="navbar has-shadow is-spaced has-background-white-bis" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
