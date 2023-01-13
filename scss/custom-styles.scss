@@ -1,0 +1,22 @@
+$shadow-color: hsl(0, 0%, 10%);
+
+nav.navbar,
+footer.footer {
+    filter: drop-shadow(0 1px 10px $shadow-color);
+}
+
+hr {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.card {
+    box-shadow: 0 0.5em 1em -0.125em $shadow-color, 0 0px 0 1px $shadow-color !important;
+}
+
+.img-rounded {
+    border-radius: 10px;
+}
+
+.has-background-dark-lighter {
+    background-color: hsl(0, 0%, 24%) !important;
+}

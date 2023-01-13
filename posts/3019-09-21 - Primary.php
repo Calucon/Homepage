@@ -35,10 +35,10 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                 <div class="columns">
                     <div class="column is-half">
                         <figure class="image is-3by2">
-                            <img src="/img/calucon_cow.webp" class="has-ratio" alt="Calucon" loading="lazy" />
+                            <img src="/img/calucon_cow.webp" class="has-ratio img-rounded" alt="Calucon" loading="lazy" />
                         </figure>
                     </div>
-                    <div class="column is-half">
+                    <div class="column is-half is-flex is-flex-direction-column is-justify-content-center">
                         <p>Hello, my name is Simon.</p><br />
                         <p>
                             I'm a computer science student at the <a href="https://www.uni-konstanz.de/en/" target="_blank" rel="noopener">University of Konstanz</a>. While studying I'm also working as a full-stack developer at <a href="https://fast-rocket.de/" target="_blank" rel="noopener">FastRocket GmbH</a>.

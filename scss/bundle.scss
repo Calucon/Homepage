@@ -1,3 +1,5 @@
+@use 'custom-styles.scss';
+
 @use '../node_modules/bulma/bulma.sass' as bulma;
 @use '../node_modules/@creativebulma/bulma-collapsible/src/sass/index.sass' as bulma-collapsible;
 
@@ -16,11 +18,3 @@
 @use '../node_modules/bulma-social/css/single/twitter/twitter.css';
 @use '../node_modules/bulma-social/css/single/discord/discord.css';
 @use '../node_modules/bulma-social/css/single/reddit/reddit.css';
-
-hr {
-    background-color: hsl(0, 0%, 90%);
-}
-
-.has-background-dark-lighter {
-    background-color: hsl(0, 0%, 24%) !important;
-}
