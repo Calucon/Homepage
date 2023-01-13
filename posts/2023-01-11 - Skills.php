@@ -9,7 +9,7 @@ $imageURL = '/img/calucon_logo_bg_small.png';
 $imageALT = 'Calucon Logo';
 
 $author = 'Simon Schwitz';
-$date = new DateTime('1998-04-06', new DateTimeZone('utc'));
+$date = new DateTime('2023-01-10', new DateTimeZone('utc'));
 
 function printSkill(string $name, int $years, string ...$descriptions)
 {
