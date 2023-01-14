@@ -106,6 +106,12 @@ $date = new DateTime('2021-10-26', new DateTimeZone('utc'));
                         </p>
                     </header>
                     <div class="card-content">
+                        <a class="button is-medium is-email" id="btn-email">
+                            <span class="icon is-medium">
+                                <i class="far fa-lg fa-envelope"></i>
+                            </span>
+                            <span>E-Mail</span>
+                        </a>
                         <a class="button is-medium is-docker" href="https://hub.docker.com/u/calucon" target="_blank" rel="noopener">
                             <span class="icon is-medium">
                                 <i class="fab fa-lg fa-docker"></i>

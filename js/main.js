@@ -25,4 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // enable bulma collapsible
   bulmaCollapsible.attach('.is-collapsible');
 
+  const mailBtn = document.getElementById('btn-email');
+  if (mailBtn) {
+    mailBtn.addEventListener('click', function () {
+      document.location = decodeURIComponent(atob('bWFpbHRvOnNpbW9uQGNhbHVjb24uZGU='));
+    });
+  }
 });
