@@ -36,11 +36,11 @@
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">About</a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="#contact" rel="noreferrer">
-                            Contact
-                        </a>
                         <a class="navbar-item" href="#skills" rel="noreferrer">
                             Skills
+                        </a>
+                        <a class="navbar-item" href="#contact" rel="noreferrer">
+                            Contact
                         </a>
                     </div>
                 </div>
