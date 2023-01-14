@@ -70,7 +70,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                     <header class="timeline-header">
                         <span class="tag is-warning">2019</span>
                     </header>
-                    <div class="timeline-item is-success">
+                    <div class="timeline-item is-warning">
                         <div class="timeline-marker is-success is-icon">
                             <i class="fa fa-check"></i>
                         </div>
