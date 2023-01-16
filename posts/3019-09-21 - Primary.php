@@ -75,7 +75,7 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">October 2018</p>
                             <p>
-                                Volunteered to be the system admin at
+                                Volunteering as system admin at
                                 <br />
                                 <a href="https://cow-gaming.de/" target="_blank" rel="noopener">Cohesion of Wolves e.V.</a>
                             </p>
