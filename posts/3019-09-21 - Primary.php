@@ -61,9 +61,23 @@ $date = new DateTime('2019-09-21', new DateTimeZone('utc'));
                         <div class="timeline-content">
                             <p class="heading">September 2016</p>
                             <p>
-                                Apprenticeship as Software Developer at
+                                Started apprenticeship as Software Developer at
                                 <br />
                                 <a href="https://www.gebhardt-inc.com/" target="_blank" rel="noopener">Gebhardt Logistic Solutions GmbH</a>
+                            </p>
+                        </div>
+                    </div>
+                    <header class="timeline-header">
+                        <span class="tag is-medium is-warning">2018</span>
+                    </header>
+                    <div class="timeline-item is-warning">
+                        <div class="timeline-marker is-warning"></div>
+                        <div class="timeline-content">
+                            <p class="heading">October 2018</p>
+                            <p>
+                                Volunteered to be the system admin at
+                                <br />
+                                <a href="https://cow-gaming.de/" target="_blank" rel="noopener">Cohesion of Wolves e.V.</a>
                             </p>
                         </div>
                     </div>
