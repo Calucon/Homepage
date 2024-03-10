@@ -1,36 +1,7 @@
 <?php
 
-function loadExternal(String $folder, String $name)
-{
-    $file = sprintf(dirname(__FILE__) . DIRECTORY_SEPARATOR . $folder . DIRECTORY_SEPARATOR . '%s.php', $name);
-    if (file_exists($file)) {
-        include $file;
-    } else {
-        error_log('File not found: ' . $file);
-    }
-}
-
-function loadTemplate(String $name)
-{
-    loadExternal('template', $name);
-}
-
-function loadPost(String $name)
-{
-    loadExternal('posts', $name);
-}
-
-function loadAllPosts()
-{
-    $files = glob('posts' . DIRECTORY_SEPARATOR . '*.php');
-
-    if ($files === false) return;
-
-    $files = array_reverse($files);
-    foreach ($files as $file) {
-        include $file;
-    }
-}
+require_once './src/Util.php';
+require_once './src/Post.php';
 
 ?>
 
@@ -81,9 +52,21 @@ function loadAllPosts()
 
 <body class="has-background-dark-lighter">
     <?php
-    loadTemplate('navbar');
-    loadAllPosts();
-    loadTemplate('footer');
+    Util::loadTemplate('navbar');
+
+    $dtz = new DateTimeZone('utc');
+    $posts = [
+        new Post('primary', 'About me', imageUrl: '/img/calucon_logo_bg_small.webp', imageAlt: 'Calucon Logo', date: new DateTime('2024-03-10', $dtz)),
+        new Post('timeline', 'Timeline', date: new DateTime('2024-03-10', $dtz)),
+        new Post('contact', 'Contact', date: new DateTime('2024-03-10', $dtz)),
+        new Post('skills', 'Skills', disabled: true, date: new DateTime('2024-03-10', $dtz)),
+    ];
+
+    foreach ($posts as $post) {
+        Util::loadPost($post);
+    }
+
+    Util::loadTemplate('footer');
     ?>
 </body>
 

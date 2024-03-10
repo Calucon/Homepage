@@ -16,9 +16,6 @@
                 <a class="navbar-item" href="https://status.calucon.de" target="_blank" rel="noreferrer">
                     Status
                 </a>
-                <!--<a class="navbar-item" href="https://blog.calucon.de" target="_blank" rel="noreferrer">
-                    Blog
-                </a>-->
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">Projects (public)</a>
                     <div class="navbar-dropdown">
@@ -36,8 +33,8 @@
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">About</a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="#skills" rel="noreferrer">
-                            Skills
+                        <a class="navbar-item" href="#timeline" rel="noreferrer">
+                            Timeline
                         </a>
                         <a class="navbar-item" href="#contact" rel="noreferrer">
                             Contact
