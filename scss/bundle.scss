@@ -1,20 +1,23 @@
-@use 'custom-styles.scss';
+@use "custom-styles.scss";
 
-@use '../node_modules/bulma/bulma.sass' as bulma;
-@use '../node_modules/@creativebulma/bulma-collapsible/src/sass/index.sass' as bulma-collapsible;
+@use "../node_modules/bulma/bulma.sass" as bulma;
+@use "../node_modules/@creativebulma/bulma-collapsible/src/sass/index.sass" as
+    bulma-collapsible;
 
 // sass not working...
-@use '../node_modules/bulma-timeline/dist/css/bulma-timeline.min.css' as bulma-timeline;
+@use "../node_modules/bulma-timeline/dist/css/bulma-timeline.min.css" as
+    bulma-timeline;
 
 /*
     Bulma Social
         Only add what i actually need
 */
-@use '../node_modules/bulma-social/css/single/gitlab/gitlab.css';
-@use '../node_modules/bulma-social/css/single/github/github.css';
-@use '../node_modules/bulma-social/css/single/bitbucket/bitbucket.css';
+@use "../node_modules/bulma-social/css/single/gitlab/gitlab.css";
+@use "../node_modules/bulma-social/css/single/github/github.css";
+@use "../node_modules/bulma-social/css/single/bitbucket/bitbucket.css";
 
-@use '../node_modules/bulma-social/css/single/linkedin/linkedin.css';
-@use '../node_modules/bulma-social/css/single/twitter/twitter.css';
-@use '../node_modules/bulma-social/css/single/discord/discord.css';
-@use '../node_modules/bulma-social/css/single/reddit/reddit.css';
+@use "../node_modules/bulma-social/css/single/linkedin/linkedin.css";
+@use "../node_modules/bulma-social/css/single/twitter/twitter.css";
+@use "../node_modules/bulma-social/css/single/discord/discord.css";
+@use "../node_modules/bulma-social/css/single/reddit/reddit.css";
+@use "../node_modules/bulma-social/css/single/youtube/youtube.css";

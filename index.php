@@ -58,6 +58,7 @@ require_once './src/Post.php';
     $posts = [
         new Post('primary', 'About me', imageUrl: '/img/calucon_logo_bg_small.webp', imageAlt: 'Calucon Logo', date: new DateTime('2024-03-10', $dtz)),
         new Post('timeline', 'Timeline', date: new DateTime('2024-03-10', $dtz)),
+        new Post('uni_projects', 'University Projects', date: new DateTime('2024-12-04', $dtz)),
         new Post('contact', 'Contact', date: new DateTime('2024-03-10', $dtz)),
         new Post('skills', 'Skills', disabled: true, date: new DateTime('2024-03-10', $dtz)),
     ];
