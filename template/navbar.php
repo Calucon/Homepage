@@ -16,12 +16,17 @@
                 <a class="navbar-item" href="https://status.calucon.de" target="_blank" rel="noreferrer">
                     Status
                 </a>
-                <a class="navbar-item" href="#timeline" target="_blank" rel="noreferrer">
+                <a class="navbar-item" href="#timeline" rel="noreferrer">
                     Timeline
                 </a>
-                <a class="navbar-item" href="#contact" target="_blank" rel="noreferrer">
-                    University Projects
-                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">University Projects</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="#uni-redirected-walking" rel="noreferrer">
+                            Redirected Walking
+                        </a>
+                    </div>
+                </div>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">Projects (other)</a>
                     <div class="navbar-dropdown">
