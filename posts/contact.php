@@ -50,12 +50,6 @@
             </span>
             <span>@CaluconDEV</span>
         </a>
-        <a class="button is-medium is-discord" href="#" rel="noopener">
-            <span class="icon is-medium">
-                <i class="fab fa-lg fa-discord"></i>
-            </span>
-            <span>Calucon#7992</span>
-        </a>
         <a class="button is-medium is-reddit" href="https://www.reddit.com/user/Calucon" target="_blank" rel="noopener">
             <span class="icon is-medium">
                 <i class="fab fa-lg fa-reddit"></i>
