@@ -25,6 +25,9 @@
                         <a class="navbar-item" href="#uni-redirected-walking" rel="noreferrer">
                             Redirected Walking
                         </a>
+                        <a class="navbar-item" href="#uni-tactile-time-machine" rel="noreferrer">
+                            Tactile Time Machine
+                        </a>
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">
